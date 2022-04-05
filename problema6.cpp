@@ -12,12 +12,12 @@ int main (){
 	cin >> num2;
 	
 	
-	resto = num1%num2;
+	resto = num2%num1;
 	if (resto==0){
-		cout << "El numero" << num1 << "es multiplo de " << num2 ;
+		cout << "El numero " << num2 << " es multiplo de " << num1 ;
 	} else {
-		cout << "El numero " << num1 << "no es multiplo de , sorry" << num2;
+		cout << "El numero " << num2 << " no es multiplo de " << num1;
 	}
 	return 0;
 	}
-	
+
