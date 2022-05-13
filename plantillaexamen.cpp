@@ -1,28 +1,44 @@
-#include <iostream>
+#include <iostream> 
+#include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 
+int aleatorio(){
+	int num;
+	srand(time(NULL));
+	num=rand()%11;
+	return num;
+}
+ 
 int main (){
 	
-	int variableEntera;
-	float variableConDecimales;
-	double variabaleConMuchosDecimales;
-	int varSw;
+	int variableIntentos;
+	int variableAciertos;
+	int variableUsario;
 	
 	
-	cout << "Un Texto" << varibleEntera << "Otro Texto";
-	cin >> otravariable;
+	cout << "Adivina un numero del 1 al 10, con los intentos que quieras. Se formatean cada vez que aciertas, y se almacenan tus aciertos.";
+	cin >> variableUsuario;
 	
-	if(vriableConDecimales > OtraVariable){
-		//Esto se hace si la condicion es cierta.
-}else if (OtraVariable > variableEntera){
-	} else {
-		//Esto se hace si la condicion no es cierta.
+	if(variableIntentos < 1){
+		cout << "Intentalo, la primera es dificil"
+   } else {
+		"Sigue"
 	}
 
-    cout << "Dame un Numero "
-    cin >> varSw
+    while (variableUsuario> -1){
+    	int pegasus = aleatorio ();
+	}
     
+    cout << "Dame un numero, si es negativo se cierra esto."
+    cin >> variableUsuario
+    
+    if(variable == pegasus){
+    	cout << "Has acertado crack"
+	} else {
+		cout << "Sigue"
+	}
     switch (varSw){
     	case 0:
     	case 1:
